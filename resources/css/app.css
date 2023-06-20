@@ -217,8 +217,9 @@ nav header i{
 .blog-description{
     font-size: 1.12em;
     text-align: justify;
-    margin-top: 1.5em;
+    margin-top: 2.5em;
     margin-bottom: 1em;
+    white-space: pre-line;
 }
 .delete-blog{
     width: 100%;
