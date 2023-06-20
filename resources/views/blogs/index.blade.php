@@ -19,7 +19,7 @@
                             <h4>{{ $blog->name }}</h4>
                             <div class="item-flex">
                                 <div class="item-author"><i class="fa-solid fa-user"></i><cite>{{ $blog->author }}</cite></div>
-                                <div class="item-date"><i class="fa-regular fa-calendar"></i>{{ $blog->date_created }}</div>
+                                <div class="item-date"><i class="fa-regular fa-calendar"></i>{{ $blog->created_at }}</div>
                             </div>
                         </div>
                     </div>

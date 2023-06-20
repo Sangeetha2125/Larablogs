@@ -8,5 +8,7 @@ Route::get('/', function () {
 });
 
 Route::get('/blogs',[BlogController::class,'index']);
-
+Route::get('/create',[BlogController::class,'create']);
 Route::get('/blogs/{id}',[BlogController::class,'show']);
+Route::post('/blogs',[BlogController::class,'store']);
+Route::delete('/blogs/{id}',[BlogController::class,'destroy']);

@@ -15,9 +15,14 @@
                 <h2>{{ $blog->name }}</h2>
                 <div class="blog-other-info">
                     <p><i class="fa-solid fa-user"></i><cite>{{ $blog->author }}</cite></p>
-                    <p><i class="fa-regular fa-calendar"></i>{{ $blog->date_created }}</p>
+                    <p><i class="fa-regular fa-calendar"></i>{{ date($blog->created_at) }}</p>
                 </div>
                 <p class="blog-description">{{ $blog->content }}</p>
+                <form action="/blogs/{{$blog->id}}" method="POST">
+                    @csrf
+                    @method('delete')
+                    <button class="delete-blog" type="submit">Delete Blog<i class="fa-solid fa-trash"></i></button>
+                </form>
             </div>
         </div>
     </div>
