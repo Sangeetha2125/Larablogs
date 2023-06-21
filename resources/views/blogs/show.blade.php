@@ -7,7 +7,6 @@
             <ul class="navbar">
                 <a href="/"><li>Home</li></a>
                 <a href="/blogs"><li>All Blogs</li></a>
-                <a href=""><li>Login</li></a>
             </ul>
         </nav>
         <div class="blog-wrapper">
@@ -21,7 +20,7 @@
                 <form action="/blogs/{{$blog->id}}" method="POST">
                     @csrf
                     @method('delete')
-                    <button class="delete-blog" type="submit">Delete Blog<i class="fa-solid fa-trash"></i></button>
+                    <button class="delete-blog" type="submit">Delete Blog</button>
                 </form>
             </div>
         </div>

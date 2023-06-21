@@ -7,7 +7,6 @@
             <ul class="navbar">
                 <a href="/"><li>Home</li></a>
                 <a href="/blogs"><li class="active">All Blogs</li></a>
-                <a href=""><li>Login</li></a>
             </ul>
         </nav>
         <div class="blogs-wrapper">

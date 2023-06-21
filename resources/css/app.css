@@ -44,7 +44,7 @@ nav header i{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 28%;
+    width: 18%;
 }
 .navbar li{
     font-size: 1.58em;
@@ -224,13 +224,13 @@ nav header i{
 .delete-blog{
     width: 100%;
     margin: 0.5em 0;
-    padding: 0.65em;
+    padding: 0.7em;
     grid-column: 1/span 2;
     font-size: 1.25em;
     background-color: #050595;
     color: white;
     border-radius: 10px;
-    letter-spacing: 1.5px;
+    letter-spacing: 1.7px;
 }
 .delete-blog:hover{
     cursor: pointer;
